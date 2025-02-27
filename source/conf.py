@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'SOC'
-copyright = '2025, Joe Shin'
-author = 'Joe Shin'
+copyright = '2025, CPP Student Security Operations Center'
+author = 'CPP Student Security Operations Center'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
