@@ -25,3 +25,10 @@ Indices and tables
 * :ref:'genindex'
 * :ref:'modindex'
 * :ref:'search'
+
+Indices and tables2
+====================
+
+* :ref:'genindex'
+* :ref:'modindex'
+* :ref:'search'
