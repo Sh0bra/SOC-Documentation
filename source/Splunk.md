@@ -1,7 +1,7 @@
 # Splunk
 Splunk is a log aggregator used to centralize logs and data. At the SOC we are using it as a System Information and Event Management(SIEM) system.
 
-## What you can learn to do with Splunk:
+## What you can do with Splunk:
 - Collect logs using the Splunk Universal Forwarders
 - Create detections and alerts
 - Use SOAR to automate tasks
@@ -30,6 +30,7 @@ Splunk is a log aggregator used to centralize logs and data. At the SOC we are u
         ```
         dpkg -i splunk-9.4.1-e3bdab203ac8-linux-amd64.deb
         ```
+        Accept the license and create an admin user. This user will be used to login to the Splunk web interface
 
         Change directory into the default bin location for Splunk. This is where all Splunk binaries are kept.
         ```
@@ -41,7 +42,10 @@ Splunk is a log aggregator used to centralize logs and data. At the SOC we are u
         ./splunk start
         ```
 
+        Access Splunk web and login using the admin user you created. The web interface is available on [http://localhost:8000](http://localhost:8000)
+        
     * **Windows**
+
         Run the command below in PowerShell.
         ```
         wget -O splunk-9.4.1-e3bdab203ac8-windows-x64.msi "https://download.splunk.com/products/splunk/releases/9.4.1/windows/splunk-9.4.1-e3bdab203ac8-windows-x64.msi"
