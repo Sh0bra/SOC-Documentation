@@ -13,7 +13,7 @@ Splunk is a log aggregator used to centralize logs and data. At the SOC we are u
 1. Download the installer from [Splunk](https://www.splunk.com/en_us/download/splunk-enterprise.html)
 2. Install Splunk onto your system
 
-    * 2.1 Linux 
+    * **Linux**
 
         Switch user into root user
         ```
@@ -41,7 +41,7 @@ Splunk is a log aggregator used to centralize logs and data. At the SOC we are u
         ./splunk start
         ```
 
-    * 2.2 Windows
+    * **Windows**
         Run the command below in PowerShell.
         ```
         wget -O splunk-9.4.1-e3bdab203ac8-windows-x64.msi "https://download.splunk.com/products/splunk/releases/9.4.1/windows/splunk-9.4.1-e3bdab203ac8-windows-x64.msi"
