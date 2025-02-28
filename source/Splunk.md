@@ -13,41 +13,41 @@ Splunk is a log aggregator used to centralize logs and data. At the SOC we are u
 1. Download the installer from [Splunk](https://www.splunk.com/en_us/download/splunk-enterprise.html)
 2. Install Splunk onto your system
 
-2.1 Linux 
+    * 2.1 Linux 
 
-Switch user into root user
-```
-su root
-```
+        Switch user into root user
+        ```
+        su root
+        ```
 
-Download the correct file for your Linux distribution. For example for Debian run the command below.
-```
-wget -O splunk-9.4.1-e3bdab203ac8-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/9.4.1/linux/splunk-9.4.1-e3bdab203ac8-linux-amd64.deb"
-```
-> Note that the name of the file may be different due to a different version
+        Download the correct file for your Linux distribution. For example for Debian run the command below.
+        ```
+        wget -O splunk-9.4.1-e3bdab203ac8-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/9.4.1/linux/splunk-9.4.1-e3bdab203ac8-linux-amd64.deb"
+        ```
+        > Note that the name of the file may be different due to a different version
 
-Run the command to extract and install the file. For .deb files its the command below. 
-```
-dpkg -i splunk-9.4.1-e3bdab203ac8-linux-amd64.deb
-```
+        Run the command to extract and install the file. For .deb files its the command below. 
+        ```
+        dpkg -i splunk-9.4.1-e3bdab203ac8-linux-amd64.deb
+        ```
 
-Change directory into the default bin location for Splunk. This is where all Splunk binaries are kept.
-```
-cd /opt/splunk/bin
-``` 
+        Change directory into the default bin location for Splunk. This is where all Splunk binaries are kept.
+        ```
+        cd /opt/splunk/bin
+        ``` 
 
-Run the splunk binary to start Splunk.
-```
-./splunk start
-```
+        Run the splunk binary to start Splunk.
+        ```
+        ./splunk start
+        ```
 
-2.2 Windows
-Run the command below in PowerShell.
-```
-wget -O splunk-9.4.1-e3bdab203ac8-windows-x64.msi "https://download.splunk.com/products/splunk/releases/9.4.1/windows/splunk-9.4.1-e3bdab203ac8-windows-x64.msi"
-```
+    * 2.2 Windows
+        Run the command below in PowerShell.
+        ```
+        wget -O splunk-9.4.1-e3bdab203ac8-windows-x64.msi "https://download.splunk.com/products/splunk/releases/9.4.1/windows/splunk-9.4.1-e3bdab203ac8-windows-x64.msi"
+        ```
 
-Double click on the .msi file you downloaded and follow the instructions to install.
+        Double click on the .msi file you downloaded and follow the instructions to install.
 
 ## How to setup the Splunk Universal Forwarder
 
